@@ -27,10 +27,6 @@
                             aria-describedby="Nim">
                     </div>
                     <div class="form-group">
-                        <label for="Nim">Foto</label>
-                        <input type="file" name="foto" class="form-control" id="Nim" value="" aria-describedby="Nim">
-                    </div>
-                    <div class="form-group">
                         <label for="Nama">Merk</label>
                         <input type="text" name="merk" class="form-control" id="Nama" value="" aria-describedby="Nama">
                     </div>
