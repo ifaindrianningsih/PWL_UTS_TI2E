@@ -7,7 +7,7 @@ use App\Http\Controllers\della_10\TasController_10;
     Catatan, lengkapi data diri anda berikut ini
     
     NIM     : 2041720034
-    Nama    : Della Jannata Febiana
+    Nama    : Della Jannata F
     Kelas   : TI-2E
     Nama sesuai folder controller : (contoh Aisyah_02 )
     

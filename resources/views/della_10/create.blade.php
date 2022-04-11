@@ -2,7 +2,7 @@
 @section('content')
 <div class="row justify-content-center align-items-center">
     <div class="card" style="width: 24rem;">
-        <div class="card-header"> Tambah Tas </div>
+        <div class="card-header"> Tambah Tas Della </div>
         <div class="card-body">
             @if ($errors->any())
                 <div class="alert alert-danger"> <strong>Whoops!</strong> There were some problems with your
