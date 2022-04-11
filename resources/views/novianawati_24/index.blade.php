@@ -39,11 +39,11 @@
        
                 <form action="{{ route('motor.destroy',['motor'=>$Motor->Id_motor]) }}" method="POST">
             
-                <a class="btn btn-info" href="{{ route('motor.show',$Motor->Id_motor) }}">Show</a>
+                <a class="btn btn-info" href="{{ route('motor.show',$Motor->Id_motor) }}">Tampil</a>
                 <a class="btn btn-primary" href="{{ route('motor.edit',$Motor->Id_motor) }}">Edit</a>
                 @csrf
                 @method('DELETE')
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" class="btn btn-danger">Hapus</button>
             </form>
             </td>
         </tr>
