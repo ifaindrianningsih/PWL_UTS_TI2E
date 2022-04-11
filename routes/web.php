@@ -19,4 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 //Route::resource('lemaries', LemariEsController::class);
+=======
+>>>>>>> 20cff88d406511345ec50f25280340f357825eac
