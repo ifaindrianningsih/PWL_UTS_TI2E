@@ -14,15 +14,3 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-<<<<<<< HEAD
-Route::get('/', function () {
-    return view('welcome');
-});
-
-<<<<<<< HEAD
-//Route::resource('lemaries', LemariEsController::class);
-=======
->>>>>>> 20cff88d406511345ec50f25280340f357825eac
-=======
->>>>>>> 808c121c95008c3a9aae397afd19bd06d7d3f9aa
