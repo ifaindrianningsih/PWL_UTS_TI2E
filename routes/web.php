@@ -1,6 +1,5 @@
 <?php
 
-use App\Models\lazuardi_17\BarangElektronik;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,3 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
