@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateMesincuci13Table extends Migration
 {
-    /**
+    /** 
      * Run the migrations.
      *
      * @return void

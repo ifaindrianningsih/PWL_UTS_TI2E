@@ -13,5 +13,5 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\gilang_13\MesinCuciController;
-// silahkan tulis code router dibawah ini 
+// silahkan tulis code router dibawah ini
 Route::resource('/mesincuci13',MesinCuciController::class);

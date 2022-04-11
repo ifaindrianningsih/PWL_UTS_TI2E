@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left mt-2">
-                <h2>UTS PEMGROGRAMAN WEB LANJUT MESIN CUCI</h2>
+                <h2>UTS PEMGROGRAMAN WEB LANJUT MESIN CUCI</h2> 
             </div>
             <div class="float-right my-2">
                 <a class="btn btn-success" href="{{ route('mesincuci13.create') }}"> Input Data Mesin Cuci</a>
