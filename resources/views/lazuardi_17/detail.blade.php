@@ -9,7 +9,7 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-            <img src="{{ asset('img/lazuardi_17/laptop.jpg') }}" alt="" height="350px">
+            <img src="{{ asset('img/lazuardi_17/'.$Barang -> foto) }}" alt="" height="350px">
         </div>
         <div class="col-md-6">
             <table class="table">
