@@ -10,7 +10,7 @@
             </div>
             <div class="card body">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>NIP : </b>{{ $dosen->nip }}</li>
+                    <li class="list-group-item"><b>NIP  : </b>{{ $dosen->nip }}</li>
                     <li class="list-group-item"><b>Nama : </b>{{ $dosen->nama }}</li>
                     <li class="list-group-item"><b>E-Mail : </b>{{ $dosen->email }}</li>
                     <li class="list-group-item"><b>Jabatan : </b>{{ $dosen->jabatan }}</li>

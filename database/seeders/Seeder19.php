@@ -15,7 +15,7 @@ class Seeder19 extends Seeder
      */
     public function run()
     {
-        $dosen =[
+        $dosen = [
             [
                 'nip' => '1999212290',
                 'nama' => 'Mahbub Auliaur Rahman',

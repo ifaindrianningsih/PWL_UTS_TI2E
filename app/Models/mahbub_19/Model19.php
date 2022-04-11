@@ -16,6 +16,7 @@ class Model19 extends Model
      * @var array
      */
     protected $fillable = [
+        
         'nip',
         'nama',
         'email',

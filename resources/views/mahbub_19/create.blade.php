@@ -22,7 +22,7 @@
             <form method="POST" action="{{ route('dosen.store') }}" id="myform">
             @csrf
                 <div class="form-group">
-                    <label for="nip">NIP</label>
+                    <label for="nip">NIP </label>
                     <input type="text" name="nip" class="form-control" id="nip" aria-describedby="nip" >
                 </div>
                 <div class="form-group">

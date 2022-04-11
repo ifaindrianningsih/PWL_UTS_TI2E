@@ -28,7 +28,7 @@
 @if ($dosen->count())
 <table class="table table-bordered table-striped">
     <tr>
-        <th>NIP</th>
+        <th>NIP </th>
         <th>Nama</th>
         <th>E-mail</th>
         <th>Jabatan</th>
