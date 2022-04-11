@@ -7966,5 +7966,9 @@
     "plugin-api-version": "2.2.0"
 =======
     "plugin-api-version": "2.1.0"
+<<<<<<< HEAD
 >>>>>>> fcd4d2235248fe25cdd2f0a43caf8558faaacc20
+=======
+>>>>>>> 3f19a6c61a0fc51dac47f30f8cc7f2df3dc0fdd9
+>>>>>>> 36bc064dca20ccf5fa84a550df0062d351df917d
 }
