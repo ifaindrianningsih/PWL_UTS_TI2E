@@ -25,7 +25,7 @@ class Tas10 extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse t  he migrations.
      *
      * @return void
      */
