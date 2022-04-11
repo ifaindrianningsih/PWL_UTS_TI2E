@@ -46,6 +46,127 @@ class RouteServiceProvider extends ServiceProvider
             Route::middleware('web')
                 ->namespace($this->namespace)
                 ->group(base_path('routes/web.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/01.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/02.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/03.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/04.php'));
+
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/05.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/06.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/07.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/08.php'));
+            
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/09.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/10.php'));
+            
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/11.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/12.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/13.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/14.php'));
+
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/15.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/16.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/17.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/18.php'));
+            
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/19.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/20.php'));
+            
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/21.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/22.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/23.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/24.php'));
+
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/25.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/26.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/27.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/28.php'));
+            
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/29.php'));
+                
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/30.php'));
+                
         });
     }
 
