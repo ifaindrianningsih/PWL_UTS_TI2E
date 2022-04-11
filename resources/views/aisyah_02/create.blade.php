@@ -14,6 +14,7 @@
                         <li>{{ $error }}</li>
                         @endforeach
                     </ul>
+                    //
                 </div>
                 @endif
                 <form method="post" action="{{route('aisyah_02.store') }}" id="myForm">

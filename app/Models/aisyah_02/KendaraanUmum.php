@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class KendaraanUmum extends Model
 {
+    //
     use HasFactory;
     protected $tabel = 'kendaraan_umums';
     protected $primaryKey = 'id';

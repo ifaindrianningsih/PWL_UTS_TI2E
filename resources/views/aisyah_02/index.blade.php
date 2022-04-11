@@ -53,6 +53,7 @@
         </tr>
         @endforeach
     </table>
+    //
             {{-- perhatikan script di bawah ini untuk membuat paginasi dan yang berkaitan dengan paginasi  --}}
         {{-- Current Page: {{ $mahasiswas->currentPage() }}<br>
         Jumlah Data: {{ $mahasiswas->total() }}<br>

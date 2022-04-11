@@ -60,6 +60,7 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                     <a class="btn btn-success" href="{{route('aisyah_02.index')}}"> Kembali </a>
             </div>
+            //
             </form>
         </div>
     </div>

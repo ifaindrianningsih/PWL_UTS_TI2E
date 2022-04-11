@@ -26,5 +26,6 @@ class KendaraanUmumSeeder extends Seeder
         ];
 
         DB::table('kendaraan_umum')->insert($kendaraan);
+        //
     }
 }
