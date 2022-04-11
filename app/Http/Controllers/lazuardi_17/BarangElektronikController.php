@@ -60,10 +60,10 @@ class BarangElektronikController extends Controller
      * @param  \App\Models\lazuardi_17\BarangElektronik  $barangElektronik
      * @return \Illuminate\Http\Response
      */
-    public function show(BarangElektronik $barangElektronik)
+    public function show($id)
     {
-        ddd($barangElektronik->id);
-        $Barang = $barangElektronik;
+        // ddd($id);
+        $Barang = BarangElektronik::find($id);
         return view('lazuardi_17.detail', compact('Barang'));
     }
 
@@ -73,9 +73,9 @@ class BarangElektronikController extends Controller
      * @param  \App\Models\lazuardi_17\BarangElektronik  $barangElektronik
      * @return \Illuminate\Http\Response
      */
-    public function edit(BarangElektronik $barangElektronik)
+    public function edit($id)
     {
-        $barang = $barangElektronik;
+        $barang = BarangElektronik::find($id);
         return view('lazuardi_17.edit', compact('barang'));
     }
 
@@ -86,7 +86,7 @@ class BarangElektronikController extends Controller
      * @param  \App\Models\lazuardi_17\BarangElektronik  $barangElektronik
      * @return \Illuminate\Http\Response
      */
-    public function update(BarangElektronik $request, BarangElektronik $barangElektronik)
+    public function update(Request $request,  $id)
     {
         $validateData = $request->validate([
             'nama_barang' => 'required|max:255',
@@ -96,7 +96,7 @@ class BarangElektronikController extends Controller
             'harga' => 'required',
             'stok' => 'required',
         ]);
-        $barangElektronik->where('id', $barangElektronik->id)->update($validateData);
+        BarangElektronik::where('id', $id)->update($validateData);
         return redirect('/BarangElektronik')->with('success', 'Data berhasil diubah');
     }
 
@@ -106,9 +106,10 @@ class BarangElektronikController extends Controller
      * @param  \App\Models\lazuardi_17\BarangElektronik  $barangElektronik
      * @return \Illuminate\Http\Response
      */
-    public function destroy(BarangElektronik $barangElektronik)
+    public function destroy($id)
     {
-        ddd($barangElektronik->id);
-        BarangElektronik::where('id', $barangElektronik->id)->delete();
+
+        BarangElektronik::where('id', $id)->delete();
+        return redirect('/BarangElektronik')->with('success', 'Data berhasil dihapus');
     }
 }
