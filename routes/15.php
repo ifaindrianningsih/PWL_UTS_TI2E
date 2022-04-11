@@ -4,13 +4,14 @@
 
     Catatan, lengkapi data diri anda berikut ini
     
-    NIM     : 
-    Nama    : 
-    Kelas   :
+    NIM     : 2041720035
+    Nama    : IRMA MAULIDIA
+    Kelas   : TI 2E
     Nama sesuai folder controller : (contoh Aisyah_02 )
     
 */
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\irma_15\RumahController_15;
 
-// silahkan tulis code router dibawah ini 
+Route::resource('rumah', RumahController_15::class);
