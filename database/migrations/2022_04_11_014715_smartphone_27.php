@@ -37,5 +37,6 @@ class Smartphone27 extends Migration
     {
         Schema::dropIfExists('smartphone');
     }
+    
      
 }

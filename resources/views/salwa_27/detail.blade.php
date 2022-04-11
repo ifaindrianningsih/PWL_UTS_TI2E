@@ -24,5 +24,7 @@
                 <a class="btn btn-success mt-3" href="{{ route('salwa_27.index') }}">Kembali</a>
             </div>
         </div>
+        
     </div>
+
 @endsection

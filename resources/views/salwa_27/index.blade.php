@@ -33,6 +33,7 @@
         @foreach ($smartphone as $hp)
             <tr>
 
+
                 <td>{{ $hp->id }}</td>
                 <td>{{ $hp->merk }}</td>
                 <td>{{ $hp->tipe }}</td>
@@ -61,4 +62,5 @@
             Data Per Halaman : {{ $smartphone->perPage() }} <br/>
             <br>
             {{ $smartphone->links() }}
+            
 @endsection

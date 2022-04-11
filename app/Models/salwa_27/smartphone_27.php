@@ -22,6 +22,7 @@ class Smartphone_27 extends Model
         'resolusi_kamera',
         'harga',
     ];
+    
 }
 
 

@@ -14,5 +14,7 @@
 use App\Http\Controllers\salwa_27\SmartphoneController_27;
 use Illuminate\Support\Facades\Route;
 
+
 // silahkan tulis code router dibawah ini 
 Route::resource('/salwa_27', SmartphoneController_27::class);
+

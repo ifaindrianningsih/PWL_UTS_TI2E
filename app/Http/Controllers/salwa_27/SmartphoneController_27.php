@@ -120,4 +120,5 @@ class SmartphoneController_27 extends Controller
         return redirect()->route('salwa_27.index')
             ->with('success', 'Smartphone Berhasil Dihapus');
     }
+    
 }
