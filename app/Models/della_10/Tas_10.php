@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tas_10 extends Model
 {
     use HasFactory;
-    protected $table = "tas"; // Della Eloquent akan membuat model mahasiswa menyimpan record di tabel mahasiswas
+    protected $table = "tas"; // Dell Eloquent akan membuat model mahasiswa menyimpan record di tabel mahasiswas
     public $timestamps = false;
     protected $primaryKey = 'id'; // Memanggil isi DB Dengan primarykey
 

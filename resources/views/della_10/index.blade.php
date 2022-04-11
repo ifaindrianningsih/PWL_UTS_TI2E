@@ -16,7 +16,7 @@
         </div>
     @endif
     <div>
-        {{-- <form class=" form-inline pt-1" action="{{ route('search') }}" method="GET">
+        {{-- :)<form class=" form-inline pt-1" action="{{ route('search') }}" method="GET">
             <div class="form-group">
                 <label class="sr-only" for="keyword"></label>
                 <input type="text" name="keyword" class="form-control mr-md-2 semail" placeholder="Cari merkTas Tas_10">

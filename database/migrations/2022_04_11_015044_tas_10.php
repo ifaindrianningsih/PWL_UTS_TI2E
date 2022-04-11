@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 class Tas10 extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations della.
      *
      * @return void
      */

@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 class Tas_10 extends Seeder
 {
     /**
-     * Run the database   seeds.
+     * Run the database   seeds della.
      *
      * @return void
      */

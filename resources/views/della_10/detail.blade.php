@@ -3,7 +3,7 @@
 <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
         <div class="card" style="width: 24rem;">
-            <div class="card-header"> Detail Tas_10 Della</div>
+            <div class="card-header"> Detail Tas_10 Della :)</div>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><b>id: </b>{{ $Tas_10->id }}</li>

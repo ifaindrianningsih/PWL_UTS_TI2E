@@ -9,7 +9,7 @@ use App\Models\della_10\Tas_10;
 class TasController_10 extends Controller
 {
     /**
-     * Display a listing of the resource Della.
+     * Display a listing of the resource Della:).
      *
      * @return \Illuminate\Http\Response
      */
