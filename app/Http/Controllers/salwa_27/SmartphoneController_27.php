@@ -9,7 +9,8 @@ use Illuminate\Http\Request;
 class SmartphoneController_27 extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the resource. 
+     * 
      *
      * @return \Illuminate\Http\Response
      */

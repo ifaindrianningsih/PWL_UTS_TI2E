@@ -25,3 +25,4 @@ class Smartphone_27 extends Model
 }
 
 
+
